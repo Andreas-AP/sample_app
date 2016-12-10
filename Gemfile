@@ -38,11 +38,18 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'sqlite3'
   gem 'rspec-rails', '2.14.1'
+  gem 'guard-rspec', '4.3.1'
+  gem 'spork-rails', '4.0.0'
+  gem 'guard-spork', '2.1.0'
+  gem 'childprocess', '0.5.9'
 end
 
 group :test do
-  gem 'selenium-webdriver'
-  gem 'capybara'
+  gem 'selenium-webdriver', '3.0.3'
+  gem 'capybara', '2.10.2'
+  gem 'rb-notifu', '0.0.4'
+  gem 'win32console', '1.3.2'
+  gem 'wdm', '0.1.1'
 end
 
 group :development do
